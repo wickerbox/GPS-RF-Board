@@ -73,16 +73,21 @@
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -109,6 +114,8 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
@@ -9563,48 +9570,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SDCARD_4UCONN">
-<description>4UConn part#19646</description>
-<smd name="1" x="-1" y="6.77" dx="1.8" dy="0.9" layer="1"/>
-<smd name="2" x="-1" y="4.27" dx="1.8" dy="0.9" layer="1"/>
-<smd name="3" x="-1" y="2.52" dx="1.8" dy="0.9" layer="1"/>
-<smd name="CD" x="-1" y="1.02" dx="1.8" dy="0.9" layer="1"/>
-<smd name="4" x="-1" y="-0.73" dx="1.8" dy="0.9" layer="1"/>
-<smd name="5" x="-1" y="-3.23" dx="1.8" dy="0.9" layer="1"/>
-<smd name="6" x="-1" y="-5.73" dx="1.8" dy="0.9" layer="1"/>
-<smd name="7" x="-1" y="-8.15" dx="1.8" dy="0.9" layer="1"/>
-<smd name="8" x="-1" y="-9.85" dx="1.8" dy="0.9" layer="1"/>
-<smd name="SH@1" x="20" y="14.75" dx="2" dy="1.4" layer="1"/>
-<smd name="SH@2" x="21.15" y="-14.75" dx="2" dy="1.4" layer="1"/>
-<smd name="WP" x="-1" y="-13" dx="1.8" dy="1.1" layer="1"/>
-<smd name="9" x="-1" y="9.27" dx="1.8" dy="0.9" layer="1"/>
-<wire x1="0" y1="14.25" x2="28.8" y2="14.25" width="0.127" layer="51"/>
-<wire x1="28.8" y1="14.25" x2="28.8" y2="10" width="0.127" layer="51"/>
-<wire x1="28.8" y1="10" x2="28.8" y2="-8" width="0.127" layer="51"/>
-<wire x1="28.8" y1="-8" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
-<wire x1="28.8" y1="-10.5" x2="28.8" y2="-14.25" width="0.127" layer="51"/>
-<wire x1="28.8" y1="-14.25" x2="0" y2="-14.25" width="0.127" layer="51"/>
-<wire x1="0" y1="-14.25" x2="0" y2="14.25" width="0.127" layer="51"/>
-<hole x="23.3" y="11.94" drill="1.55"/>
-<hole x="23.3" y="-12.32" drill="1.55"/>
-<text x="0.54" y="12.94" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.54" y="11.67" size="0.4064" layer="27">&gt;VALUE</text>
-<wire x1="-0.095" y1="10.019" x2="-0.095" y2="14.418" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="14.418" x2="5.239" y2="14.418" width="0.254" layer="21"/>
-<wire x1="21.849" y1="14.318" x2="28.888" y2="14.318" width="0.254" layer="21"/>
-<wire x1="28.888" y1="14.318" x2="28.9" y2="12.9" width="0.254" layer="21"/>
-<wire x1="23.011" y1="-14.327" x2="28.888" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="28.888" y1="-14.327" x2="28.888" y2="-13.349" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="-14.238" x2="-0.095" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="-14.327" x2="5.239" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="35.6" y1="12" x2="35.6" y2="-13" width="0.127" layer="51"/>
-<text x="34.9" y="-9.3" size="1.27" layer="51" rot="R90">card lock position</text>
-<wire x1="28.8" y1="10" x2="28" y2="10" width="0.127" layer="51"/>
-<wire x1="28" y1="10" x2="18" y2="0" width="0.127" layer="51" curve="90"/>
-<wire x1="28" y1="-10.5" x2="18" y2="-0.5" width="0.127" layer="51" curve="-90"/>
-<wire x1="18" y1="0" x2="18" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="28" y1="-10.5" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
-</package>
 <package name="1X14">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
@@ -9988,27 +9953,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 <symbols>
-<symbol name="SDCARD-1">
-<wire x1="-7.62" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="CD/DAT3" x="-12.7" y="0" length="middle"/>
-<pin name="CMD" x="-12.7" y="2.54" length="middle"/>
-<pin name="VSS1" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
-<pin name="VDD" x="-12.7" y="15.24" length="middle" direction="pwr"/>
-<pin name="CLK" x="-12.7" y="5.08" length="middle"/>
-<pin name="VSS2" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
-<pin name="DAT0" x="-12.7" y="12.7" length="middle"/>
-<pin name="DAT1" x="-12.7" y="10.16" length="middle"/>
-<pin name="DAT2" x="-12.7" y="7.62" length="middle"/>
-<text x="-7.366" y="18.288" size="1.778" layer="95">&gt;Name</text>
-<pin name="WP" x="-12.7" y="-5.08" length="middle"/>
-<pin name="CD" x="-12.7" y="-2.54" length="middle"/>
-<text x="-7.112" y="-20.32" size="1.778" layer="96">&gt;Value</text>
-<pin name="SH@1" x="-12.7" y="-15.24" length="middle"/>
-<pin name="SH@2" x="-12.7" y="-12.7" length="middle"/>
-</symbol>
 <symbol name="M14">
 <wire x1="6.35" y1="-20.32" x2="0" y2="-20.32" width="0.4064" layer="94"/>
 <wire x1="3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.6096" layer="94"/>
@@ -10047,34 +9991,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SD_CARD_SOCKET" prefix="U">
-<description>SD Memory Card Connector, push-push normal type, CD enable, WP enable</description>
-<gates>
-<gate name="G$1" symbol="SDCARD-1" x="-66.04" y="10.16"/>
-</gates>
-<devices>
-<device name="4UCON" package="SDCARD_4UCONN">
-<connects>
-<connect gate="G$1" pin="CD" pad="CD"/>
-<connect gate="G$1" pin="CD/DAT3" pad="1"/>
-<connect gate="G$1" pin="CLK" pad="5"/>
-<connect gate="G$1" pin="CMD" pad="2"/>
-<connect gate="G$1" pin="DAT0" pad="7"/>
-<connect gate="G$1" pin="DAT1" pad="8"/>
-<connect gate="G$1" pin="DAT2" pad="9"/>
-<connect gate="G$1" pin="SH@1" pad="SH@1"/>
-<connect gate="G$1" pin="SH@2" pad="SH@2"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-<connect gate="G$1" pin="VSS1" pad="3"/>
-<connect gate="G$1" pin="VSS2" pad="6"/>
-<connect gate="G$1" pin="WP" pad="WP"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M14" prefix="JP">
 <description>&lt;b&gt;Header 14&lt;/b&gt;
 Standard 14-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).</description>
@@ -10658,6 +10574,101 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="MICROSD">
+<wire x1="13" y1="-15.14" x2="14" y2="-15.14" width="0.127" layer="21"/>
+<wire x1="14" y1="-15.14" x2="14" y2="-0.04" width="0.127" layer="21"/>
+<wire x1="14" y1="-0.04" x2="0" y2="-0.04" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.04" x2="0" y2="-14.44" width="0.127" layer="21"/>
+<wire x1="0" y1="-14.44" x2="1" y2="-14.44" width="0.127" layer="21"/>
+<wire x1="1" y1="-14.44" x2="1.7" y2="-13.54" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.7" y1="-13.54" x2="11.4" y2="-13.54" width="0.127" layer="21"/>
+<wire x1="11.4" y1="-13.54" x2="13" y2="-15.14" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.4" y1="-14.7" x2="1.6" y2="-15.9" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="-15.9" x2="10.8" y2="-15.9" width="0.127" layer="21"/>
+<wire x1="10.8" y1="-15.9" x2="12.1" y2="-14.8" width="0.127" layer="21" curve="90"/>
+<wire x1="0.4" y1="-15.6" x2="1.6" y2="-16.8" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="-16.8" x2="10.8" y2="-16.8" width="0.127" layer="21"/>
+<wire x1="10.8" y1="-16.8" x2="12.1" y2="-15.7" width="0.127" layer="21" curve="90"/>
+<wire x1="0.4" y1="-19.4" x2="1.6" y2="-20.6" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="-20.6" x2="10.8" y2="-20.6" width="0.127" layer="21"/>
+<wire x1="10.8" y1="-20.6" x2="12.1" y2="-19.5" width="0.127" layer="21" curve="90"/>
+<smd name="MT1" x="0.4" y="-13.54" dx="1.4" dy="1.9" layer="1"/>
+<smd name="MT2" x="13.6" y="-14.44" dx="1.4" dy="1.9" layer="1"/>
+<smd name="CD1" x="2" y="-0.44" dx="1.4" dy="1.8" layer="1" rot="R90"/>
+<smd name="CD2" x="8" y="-0.44" dx="1.4" dy="1.8" layer="1" rot="R90"/>
+<smd name="8" x="1.3" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
+<smd name="7" x="2.4" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
+<smd name="6" x="3.5" y="-11.04" dx="0.7" dy="1.5" layer="1"/>
+<smd name="5" x="4.6" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="5.7" y="-11.04" dx="0.7" dy="1.5" layer="1"/>
+<smd name="3" x="6.8" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2" x="7.9" y="-10.24" dx="0.7" dy="1.5" layer="1"/>
+<smd name="1" x="9" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
+<text x="3.7" y="-3.94" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TRANSFLASH">
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-22.86" x2="-2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-25.4" x2="0" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="2.54" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-22.86" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<text x="-7.62" y="-10.16" size="2.1844" layer="94">SD &amp; MMC</text>
+<pin name="CS" x="-17.78" y="0" length="short" direction="in"/>
+<pin name="DATA_IN" x="-17.78" y="5.08" length="short" direction="in"/>
+<pin name="VSS" x="-17.78" y="-12.7" length="short" direction="sup"/>
+<pin name="VDD" x="-17.78" y="-10.16" length="short" direction="sup"/>
+<pin name="SCLK" x="-17.78" y="2.54" length="short" direction="in"/>
+<pin name="DATA_OUT" x="-17.78" y="7.62" length="short" direction="out"/>
+<pin name="DAT1" x="-17.78" y="-2.54" length="short"/>
+<pin name="DAT2" x="-17.78" y="-5.08" length="short"/>
+<pin name="CARD_DETECT" x="-17.78" y="17.78" length="short" direction="pas"/>
+<pin name="GND" x="-17.78" y="-20.32" length="short" direction="sup"/>
+<pin name="GND1" x="-17.78" y="-17.78" length="short" direction="sup"/>
+<pin name="CARD_DETECT1" x="-17.78" y="15.24" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROSD">
+<description>&lt;b&gt;Micro-SD / Transflash card holder with SPI pinout&lt;/b&gt;
+&lt;p&gt;
+For the 3M # 2908-05WB-MG and/or 4UCON #19656&lt;br&gt;
+push-push type</description>
+<gates>
+<gate name="G$1" symbol="TRANSFLASH" x="5.08" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="MICROSD">
+<connects>
+<connect gate="G$1" pin="CARD_DETECT" pad="CD1"/>
+<connect gate="G$1" pin="CARD_DETECT1" pad="CD2"/>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="DATA_IN" pad="3"/>
+<connect gate="G$1" pin="DATA_OUT" pad="7"/>
+<connect gate="G$1" pin="GND" pad="MT1"/>
+<connect gate="G$1" pin="GND1" pad="MT2"/>
+<connect gate="G$1" pin="SCLK" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10733,8 +10744,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="DIG_GND26" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND27" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND28" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="DIG_GND29" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD3" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="X3" library="con-coax" deviceset="BU-SMA-H" device=""/>
 <part name="C22" library="rcl_custom" deviceset="C-EU" device="0603-B" value="6.8nF"/>
 <part name="DIG_GND31" library="supply" deviceset="GND_BAR" device="" value="GND"/>
@@ -10770,7 +10779,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="3.3VA4" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
 <part name="3.3VA5" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
 <part name="3.3VD7" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
-<part name="SDIO" library="SparkFun-Connectors" deviceset="SD_CARD_SOCKET" device="4UCON"/>
 <part name="DIG_GND41" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="SWD" library="microbuilder" deviceset="JTAG-CORTEXM3" device="MOLEX"/>
 <part name="DIG_GND42" library="supply" deviceset="GND_BAR" device="" value="GND"/>
@@ -10788,6 +10796,9 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M14" device="LOCK_LONGPADS"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M14" device="LOCK_LONGPADS"/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM"/>
+<part name="U$5" library="adafruit" deviceset="MICROSD" device=""/>
+<part name="DIG_GND29" library="supply" deviceset="GND_BAR" device="" value="GND"/>
+<part name="3.3VD3" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 </parts>
 <sheets>
 <sheet>
@@ -10859,8 +10870,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <instance part="DIG_GND26" gate="1" x="213.36" y="86.36"/>
 <instance part="DIG_GND27" gate="1" x="335.28" y="134.62"/>
 <instance part="DIG_GND28" gate="1" x="241.3" y="38.1"/>
-<instance part="DIG_GND29" gate="1" x="111.76" y="149.86"/>
-<instance part="3.3VD3" gate="G$1" x="116.84" y="170.18"/>
 <instance part="X3" gate="G$1" x="482.6" y="114.3"/>
 <instance part="C22" gate="CE" x="515.62" y="93.98"/>
 <instance part="DIG_GND31" gate="1" x="497.84" y="93.98"/>
@@ -10896,7 +10905,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <instance part="3.3VA4" gate="G$1" x="556.26" y="132.08"/>
 <instance part="3.3VA5" gate="G$1" x="485.14" y="96.52"/>
 <instance part="3.3VD7" gate="G$1" x="665.48" y="78.74" rot="MR0"/>
-<instance part="SDIO" gate="G$1" x="172.72" y="152.4"/>
 <instance part="DIG_GND41" gate="1" x="203.2" y="121.92"/>
 <instance part="SWD" gate="G$1" x="73.66" y="144.78"/>
 <instance part="DIG_GND42" gate="1" x="60.96" y="139.7"/>
@@ -10914,6 +10922,9 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <instance part="JP2" gate="G$1" x="441.96" y="76.2" rot="MR0"/>
 <instance part="JP1" gate="G$1" x="388.62" y="149.86"/>
 <instance part="BAT1" gate="G$1" x="210.82" y="127" rot="MR0"/>
+<instance part="U$5" gate="G$1" x="111.76" y="149.86" rot="MR0"/>
+<instance part="DIG_GND29" gate="1" x="137.16" y="124.46"/>
+<instance part="3.3VD3" gate="G$1" x="154.94" y="144.78"/>
 </instances>
 <busses>
 <bus name="Q0,Q1,I0,I1,IDLE,ANTFLAG,PGM,LD,SHDN,SPI_MOSI,SPI_CLK,SPI_CS,CLKOUT">
@@ -11033,11 +11044,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="3.3VA2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="160.02" x2="116.84" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="3.3VD3" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <wire x1="591.82" y1="55.88" x2="591.82" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="591.82" y1="58.42" x2="594.36" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="594.36" y1="58.42" x2="601.98" y2="58.42" width="0.1524" layer="91"/>
@@ -11111,6 +11117,13 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="FTDI/SERIAL" gate="G$1" pin="VCC"/>
 <pinref part="3.3VD9" gate="G$1" pin="3.3V"/>
 <wire x1="220.98" y1="160.02" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="VDD"/>
+<label x="132.08" y="139.7" size="1.778" layer="95"/>
+<wire x1="129.54" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="139.7" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="3.3VD3" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -11262,14 +11275,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="DIG_GND28" gate="1" pin="BAR_GND"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="162.56" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="154.94" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="154.94" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
-<junction x="111.76" y="154.94"/>
-<pinref part="DIG_GND29" gate="1" pin="BAR_GND"/>
-</segment>
-<segment>
 <wire x1="485.14" y1="111.76" x2="497.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="111.76" x2="497.84" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="X3" gate="G$1" pin="GND"/>
@@ -11355,6 +11360,20 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <wire x1="210.82" y1="154.94" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="FTDI/SERIAL" gate="G$1" pin="GND"/>
 <pinref part="DIG_GND44" gate="1" pin="BAR_GND"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="VSS"/>
+<wire x1="129.54" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND1"/>
+<wire x1="129.54" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="132.08" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="DIG_GND29" gate="1" pin="BAR_GND"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="137.16" y1="129.54" x2="137.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<junction x="137.16" y="129.54"/>
+<wire x1="137.16" y1="137.16" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
+<junction x="137.16" y="132.08"/>
 </segment>
 </net>
 <net name="LD" class="0">
@@ -11755,8 +11774,8 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="HS_USB" gate="G$1" pin="DATA7"/>
 </segment>
 <segment>
-<wire x1="261.62" y1="152.4" x2="261.62" y2="170.18" width="0.1524" layer="91"/>
-<label x="261.62" y="152.4" size="1.778" layer="95" rot="R90"/>
+<wire x1="261.62" y1="152.4" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
+<label x="261.62" y="157.48" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$3" gate="G$1" pin="PB5"/>
 </segment>
 </net>
@@ -11949,30 +11968,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <label x="309.88" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SD_D3" class="0">
-<segment>
-<wire x1="149.86" y1="167.64" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
-<label x="134.62" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SD_CMD" class="0">
-<segment>
-<wire x1="149.86" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
-<label x="134.62" y="165.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SD_CLK" class="0">
-<segment>
-<wire x1="149.86" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
-<label x="134.62" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SD_MISO" class="0">
-<segment>
-<wire x1="149.86" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
-<label x="134.62" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="OSC_IN" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PH0"/>
@@ -12000,21 +11995,16 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="C30" gate="CE" pin="2"/>
 </segment>
 </net>
-<net name="N$38" class="0">
-<segment>
-<wire x1="149.86" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<wire x1="149.86" y1="147.32" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SDIO_D0" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PC8"/>
 <wire x1="307.34" y1="114.3" x2="327.66" y2="114.3" width="0.1524" layer="91"/>
 <label x="309.88" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="DATA_OUT"/>
+<wire x1="129.54" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<label x="132.08" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDIO_D1" class="0">
@@ -12023,12 +12013,22 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <wire x1="307.34" y1="116.84" x2="327.66" y2="116.84" width="0.1524" layer="91"/>
 <label x="309.88" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="DAT1"/>
+<wire x1="129.54" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
+<label x="132.08" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDIO_D2" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PC10"/>
 <wire x1="294.64" y1="152.4" x2="294.64" y2="172.72" width="0.1524" layer="91"/>
 <label x="294.64" y="157.48" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="DAT2"/>
+<wire x1="129.54" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<label x="132.08" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDIO_CLK" class="0">
@@ -12037,12 +12037,22 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <wire x1="289.56" y1="152.4" x2="289.56" y2="172.72" width="0.1524" layer="91"/>
 <label x="289.56" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="SCLK"/>
+<wire x1="129.54" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
+<label x="132.08" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDIO_CMD" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PD2"/>
 <wire x1="281.94" y1="152.4" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
 <label x="281.94" y="157.48" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="DATA_IN"/>
+<wire x1="129.54" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<label x="132.08" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -12166,7 +12176,7 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="PB3"/>
 <wire x1="266.7" y1="152.4" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
-<label x="266.7" y="152.4" size="1.778" layer="95" rot="R90"/>
+<label x="266.7" y="157.48" size="1.778" layer="95" rot="R90"/>
 <wire x1="266.7" y1="177.8" x2="340.36" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="177.8" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="111.76" x2="393.7" y2="111.76" width="0.1524" layer="91"/>
@@ -12215,9 +12225,42 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <wire x1="411.48" y1="60.96" x2="411.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="SDIO_D3" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="CS"/>
+<wire x1="129.54" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
+<label x="132.08" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="PC11"/>
+<wire x1="292.1" y1="152.4" x2="292.1" y2="172.72" width="0.1524" layer="91"/>
+<label x="292.1" y="157.48" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="SDIO_DETECT" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="CARD_DETECT"/>
+<wire x1="129.54" y1="167.64" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
+<label x="132.08" y="167.64" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="PE2"/>
+<wire x1="139.7" y1="167.64" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="139.7" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="165.1" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
+<label x="210.82" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,619.592,158.75,C10,,,,,"/>
+<approved hash="115,1,624.672,135.89,C11,,,,,"/>
+<approved hash="115,1,73.66,150.923,SWD,,,,,"/>
+<approved hash="115,1,190.5,107.421,Q1,,,,,"/>
+<approved hash="115,1,205.981,159.999,FTDI/SERIAL,,,,,"/>
+<approved hash="115,1,210.82,128.719,BAT1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
