@@ -10615,6 +10615,58 @@ push-push type</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="3.3VD">
+<pin name="3.3VD" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="3.3VA">
+<description>3.3VA SUPPLY</description>
+<pin name="3.3VA" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3.3VD">
+<description>3.3VD POWER SUPPLY</description>
+<gates>
+<gate name="3.3VD" symbol="3.3VD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3VA">
+<description>3.3VA SUPPLY SYMBOL</description>
+<gates>
+<gate name="3.3VA" symbol="3.3VA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10675,9 +10727,6 @@ push-push type</description>
 <part name="R7" library="rcl_custom" deviceset="R-US_" device="0603-B" value="1.5k"/>
 <part name="3.3VD" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="3.3VD2" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
-<part name="3.3VA" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
-<part name="3.3VA1" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
-<part name="3.3VA2" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
 <part name="DIG_GND10" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND26" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND27" library="supply" deviceset="GND_BAR" device="" value="GND"/>
@@ -10691,12 +10740,10 @@ push-push type</description>
 <part name="DIG_GND32" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND33" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C19" library="rcl_custom" deviceset="C-EU" device="0603-B" value="6.8nF"/>
-<part name="3.3VA3" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
 <part name="HS_USB" library="SparkFun" deviceset="USB3318" device=""/>
 <part name="U$6" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="C1" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
 <part name="DIG_GND17" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD4" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="3.3VD5" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="R1" library="rcl_custom" deviceset="R-US_" device="0603-B" value="1k"/>
 <part name="R8" library="rcl_custom" deviceset="R-US_" device="0603-B" value="1k"/>
@@ -10714,13 +10761,9 @@ push-push type</description>
 <part name="C28" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
 <part name="DIG_GND38" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND39" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VA4" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
-<part name="3.3VA5" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
-<part name="3.3VD7" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="DIG_GND41" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="SWD" library="microbuilder" deviceset="JTAG-CORTEXM3" device="MOLEX"/>
 <part name="DIG_GND42" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD8" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="U$4" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$7" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="CTS406"/>
@@ -10730,46 +10773,56 @@ push-push type</description>
 <part name="DIG_GND43" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="FTDI/SERIAL" library="microbuilder" deviceset="FTDIUSBCABLE" device=""/>
 <part name="DIG_GND44" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD9" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M14" device="LOCK_LONGPADS"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M14" device="LOCK_LONGPADS"/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM"/>
 <part name="U$5" library="adafruit" deviceset="MICROSD" device=""/>
 <part name="DIG_GND29" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD3" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="U$8" library="microbuilder" deviceset="5.0V" device=""/>
-<part name="3.3VD10" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
-<part name="3.3VA6" library="SparkFun" deviceset="3.3V" device="" value="3.3VA"/>
 <part name="C31" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
 <part name="DIG_GND45" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD11" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="DIG_GND46" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C32" library="rcl_custom" deviceset="C-EU" device="0603-B" value="100nF"/>
-<part name="3.3VD12" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="C33" library="rcl_custom" deviceset="C-EU" device="0603-B" value="4.7uF"/>
 <part name="DIG_GND47" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C34" library="rcl_custom" deviceset="C-EU" device="0603-B" value="100nF"/>
 <part name="DIG_GND48" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD13" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
-<part name="3.3VD14" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="C35" library="rcl_custom" deviceset="C-EU" device="0603-B" value="100nF"/>
 <part name="DIG_GND49" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C36" library="rcl_custom" deviceset="C-EU" device="0603-B" value="100nF"/>
 <part name="C37" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
-<part name="3.3VD15" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="DIG_GND50" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND51" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD16" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="C38" library="rcl_custom" deviceset="C-EU" device="0603-B" value="100nF"/>
 <part name="DIG_GND52" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C39" library="rcl_custom" deviceset="C-EU" device="0603-B" value="1uF"/>
-<part name="3.3VD17" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="DIG_GND53" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="Q2" library="crystal" deviceset="CRYSTAL" device="CTS406"/>
 <part name="DIG_GND7" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C20" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
 <part name="DIG_GND20" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND21" library="supply" deviceset="GND_BAR" device="" value="GND"/>
+<part name="U$9" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$10" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$11" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$12" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$13" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$14" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$15" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$16" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$17" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$18" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$19" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$20" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
+<part name="U$21" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$22" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$23" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
+<part name="U$24" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
+<part name="U$25" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
+<part name="U$26" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
+<part name="U$27" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
+<part name="U$28" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
+<part name="DIG_GND22" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -10826,9 +10879,6 @@ push-push type</description>
 <instance part="R7" gate="R" x="45.72" y="81.28" rot="MR90"/>
 <instance part="3.3VD" gate="G$1" x="45.72" y="99.06" rot="MR0"/>
 <instance part="3.3VD2" gate="G$1" x="675.64" y="162.56" rot="MR0"/>
-<instance part="3.3VA" gate="G$1" x="726.44" y="134.62"/>
-<instance part="3.3VA1" gate="G$1" x="756.92" y="134.62"/>
-<instance part="3.3VA2" gate="G$1" x="764.54" y="96.52"/>
 <instance part="DIG_GND10" gate="1" x="218.44" y="121.92"/>
 <instance part="DIG_GND26" gate="1" x="223.52" y="88.9"/>
 <instance part="DIG_GND27" gate="1" x="403.86" y="116.84"/>
@@ -10842,12 +10892,10 @@ push-push type</description>
 <instance part="DIG_GND32" gate="1" x="635" y="58.42"/>
 <instance part="DIG_GND33" gate="1" x="624.84" y="58.42"/>
 <instance part="C19" gate="CE" x="589.28" y="93.98"/>
-<instance part="3.3VA3" gate="G$1" x="678.18" y="63.5"/>
 <instance part="HS_USB" gate="G$1" x="142.24" y="68.58"/>
 <instance part="U$6" gate="G$1" x="109.22" y="104.14"/>
 <instance part="C1" gate="CE" x="170.18" y="99.06" rot="R180"/>
 <instance part="DIG_GND17" gate="1" x="170.18" y="93.98"/>
-<instance part="3.3VD4" gate="G$1" x="170.18" y="109.22"/>
 <instance part="3.3VD5" gate="G$1" x="93.98" y="99.06"/>
 <instance part="R1" gate="R" x="76.2" y="88.9" rot="R90"/>
 <instance part="R8" gate="R" x="76.2" y="76.2" rot="R90"/>
@@ -10865,13 +10913,9 @@ push-push type</description>
 <instance part="C28" gate="CE" x="93.98" y="78.74" rot="R180"/>
 <instance part="DIG_GND38" gate="1" x="93.98" y="73.66"/>
 <instance part="DIG_GND39" gate="1" x="104.14" y="91.44"/>
-<instance part="3.3VA4" gate="G$1" x="640.08" y="132.08"/>
-<instance part="3.3VA5" gate="G$1" x="568.96" y="96.52"/>
-<instance part="3.3VD7" gate="G$1" x="749.3" y="78.74" rot="MR0"/>
 <instance part="DIG_GND41" gate="1" x="208.28" y="121.92"/>
 <instance part="SWD" gate="G$1" x="347.98" y="149.86" rot="MR0"/>
 <instance part="DIG_GND42" gate="1" x="360.68" y="144.78" rot="MR0"/>
-<instance part="3.3VD8" gate="G$1" x="360.68" y="165.1" rot="MR0"/>
 <instance part="U$4" gate="G$1" x="15.24" y="162.56"/>
 <instance part="U$7" gate="G$1" x="15.24" y="139.7"/>
 <instance part="Q1" gate="G$1" x="187.96" y="106.68"/>
@@ -10881,46 +10925,56 @@ push-push type</description>
 <instance part="DIG_GND43" gate="1" x="198.12" y="93.98"/>
 <instance part="FTDI/SERIAL" gate="G$1" x="424.18" y="162.56" rot="MR180"/>
 <instance part="DIG_GND44" gate="1" x="396.24" y="154.94" rot="MR0"/>
-<instance part="3.3VD9" gate="G$1" x="396.24" y="167.64" rot="MR0"/>
 <instance part="JP2" gate="G$1" x="525.78" y="76.2" rot="MR0"/>
 <instance part="JP1" gate="G$1" x="444.5" y="149.86"/>
 <instance part="BAT1" gate="G$1" x="213.36" y="127" rot="MR0"/>
 <instance part="U$5" gate="G$1" x="111.76" y="149.86" rot="MR0"/>
 <instance part="DIG_GND29" gate="1" x="137.16" y="124.46"/>
-<instance part="3.3VD3" gate="G$1" x="154.94" y="144.78"/>
 <instance part="U$8" gate="G$1" x="17.78" y="93.98"/>
-<instance part="3.3VD10" gate="G$1" x="48.26" y="139.7"/>
-<instance part="3.3VA6" gate="G$1" x="48.26" y="162.56"/>
 <instance part="C31" gate="CE" x="396.24" y="124.46" rot="R180"/>
 <instance part="DIG_GND45" gate="1" x="396.24" y="116.84"/>
-<instance part="3.3VD11" gate="G$1" x="411.48" y="142.24"/>
 <instance part="DIG_GND46" gate="1" x="411.48" y="116.84"/>
 <instance part="C32" gate="CE" x="411.48" y="124.46" rot="R180"/>
-<instance part="3.3VD12" gate="G$1" x="238.76" y="170.18"/>
 <instance part="C33" gate="CE" x="233.68" y="160.02" rot="R180"/>
 <instance part="DIG_GND47" gate="1" x="233.68" y="154.94"/>
 <instance part="C34" gate="CE" x="187.96" y="121.92" rot="R180"/>
 <instance part="DIG_GND48" gate="1" x="187.96" y="116.84"/>
-<instance part="3.3VD13" gate="G$1" x="193.04" y="132.08"/>
-<instance part="3.3VD14" gate="G$1" x="215.9" y="86.36"/>
 <instance part="C35" gate="CE" x="208.28" y="68.58" rot="R180"/>
 <instance part="DIG_GND49" gate="1" x="208.28" y="58.42"/>
 <instance part="C36" gate="CE" x="314.96" y="53.34" rot="R180"/>
 <instance part="C37" gate="CE" x="304.8" y="53.34" rot="R180"/>
-<instance part="3.3VD15" gate="G$1" x="314.96" y="63.5"/>
 <instance part="DIG_GND50" gate="1" x="314.96" y="48.26"/>
 <instance part="DIG_GND51" gate="1" x="304.8" y="48.26"/>
-<instance part="3.3VD16" gate="G$1" x="223.52" y="43.18"/>
 <instance part="C38" gate="CE" x="215.9" y="38.1" rot="R180"/>
 <instance part="DIG_GND52" gate="1" x="215.9" y="33.02"/>
 <instance part="C39" gate="CE" x="215.9" y="68.58" rot="R180"/>
-<instance part="3.3VD17" gate="G$1" x="198.12" y="81.28"/>
 <instance part="DIG_GND53" gate="1" x="215.9" y="58.42"/>
 <instance part="Q2" gate="G$1" x="741.68" y="165.1"/>
 <instance part="DIG_GND7" gate="1" x="731.52" y="162.56"/>
 <instance part="C20" gate="CE" x="154.94" y="134.62" rot="R180"/>
 <instance part="DIG_GND20" gate="1" x="154.94" y="129.54"/>
 <instance part="DIG_GND21" gate="1" x="134.62" y="162.56"/>
+<instance part="U$9" gate="3.3VD" x="238.76" y="170.18"/>
+<instance part="U$10" gate="3.3VD" x="360.68" y="165.1"/>
+<instance part="U$11" gate="3.3VD" x="396.24" y="167.64"/>
+<instance part="U$12" gate="3.3VD" x="411.48" y="142.24"/>
+<instance part="U$13" gate="3.3VD" x="314.96" y="63.5"/>
+<instance part="U$14" gate="3.3VD" x="154.94" y="144.78"/>
+<instance part="U$15" gate="3.3VD" x="193.04" y="132.08"/>
+<instance part="U$16" gate="3.3VD" x="170.18" y="109.22"/>
+<instance part="U$17" gate="3.3VD" x="198.12" y="81.28"/>
+<instance part="U$18" gate="3.3VD" x="215.9" y="86.36"/>
+<instance part="U$19" gate="3.3VD" x="223.52" y="43.18"/>
+<instance part="U$20" gate="3.3VA" x="48.26" y="162.56"/>
+<instance part="U$21" gate="3.3VD" x="48.26" y="139.7"/>
+<instance part="U$22" gate="3.3VD" x="749.3" y="78.74"/>
+<instance part="U$23" gate="3.3VA" x="726.44" y="134.62"/>
+<instance part="U$24" gate="3.3VA" x="756.92" y="134.62"/>
+<instance part="U$25" gate="3.3VA" x="764.54" y="96.52"/>
+<instance part="U$26" gate="3.3VA" x="640.08" y="132.08"/>
+<instance part="U$27" gate="3.3VA" x="678.18" y="63.5"/>
+<instance part="U$28" gate="3.3VA" x="568.96" y="96.52"/>
+<instance part="DIG_GND22" gate="1" x="721.36" y="81.28"/>
 </instances>
 <busses>
 <bus name="Q0,Q1,I0,I1,IDLE,ANTFLAG,PGM,LD,SHDN,SPI_MOSI,SPI_CLK,SPI_CS,CLKOUT">
@@ -11292,6 +11346,12 @@ push-push type</description>
 <wire x1="129.54" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="DIG_GND21" gate="1" pin="BAR_GND"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="BODY"/>
+<wire x1="711.2" y1="86.36" x2="721.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="721.36" y1="86.36" x2="721.36" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="DIG_GND22" gate="1" pin="BAR_GND"/>
+</segment>
 </net>
 <net name="LD" class="0">
 <segment>
@@ -11600,9 +11660,9 @@ push-push type</description>
 <wire x1="627.38" y1="129.54" x2="627.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="C12" gate="CE" pin="1"/>
 <wire x1="640.08" y1="127" x2="640.08" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="3.3VA4" gate="G$1" pin="3.3V"/>
 <wire x1="640.08" y1="129.54" x2="640.08" y2="132.08" width="0.1524" layer="91"/>
 <junction x="640.08" y="129.54"/>
+<pinref part="U$26" gate="3.3VA" pin="3.3VA"/>
 </segment>
 <segment>
 <wire x1="711.2" y1="121.92" x2="721.36" y2="121.92" width="0.1524" layer="91"/>
@@ -11614,7 +11674,7 @@ push-push type</description>
 <pinref part="U1" gate="G$1" pin="VCCD"/>
 <pinref part="C7" gate="CE" pin="1"/>
 <pinref part="C14" gate="CE" pin="1"/>
-<pinref part="3.3VA" gate="G$1" pin="3.3V"/>
+<pinref part="U$23" gate="3.3VA" pin="3.3VA"/>
 </segment>
 <segment>
 <wire x1="711.2" y1="116.84" x2="751.84" y2="116.84" width="0.1524" layer="91"/>
@@ -11626,7 +11686,7 @@ push-push type</description>
 <pinref part="U1" gate="G$1" pin="VCCCP"/>
 <pinref part="C8" gate="CE" pin="1"/>
 <pinref part="C13" gate="CE" pin="1"/>
-<pinref part="3.3VA1" gate="G$1" pin="3.3V"/>
+<pinref part="U$24" gate="3.3VA" pin="3.3VA"/>
 </segment>
 <segment>
 <wire x1="711.2" y1="106.68" x2="746.76" y2="106.68" width="0.1524" layer="91"/>
@@ -11638,7 +11698,7 @@ push-push type</description>
 <pinref part="U1" gate="G$1" pin="VCCVCO"/>
 <pinref part="C5" gate="CE" pin="1"/>
 <pinref part="C6" gate="CE" pin="1"/>
-<pinref part="3.3VA2" gate="G$1" pin="3.3V"/>
+<pinref part="U$25" gate="3.3VA" pin="3.3VA"/>
 </segment>
 <segment>
 <wire x1="675.64" y1="55.88" x2="675.64" y2="58.42" width="0.1524" layer="91"/>
@@ -11652,19 +11712,19 @@ push-push type</description>
 <pinref part="C15" gate="CE" pin="1"/>
 <pinref part="C16" gate="CE" pin="1"/>
 <pinref part="U1" gate="G$1" pin="VCCRF"/>
-<pinref part="3.3VA3" gate="G$1" pin="3.3V"/>
 <junction x="678.18" y="58.42"/>
+<pinref part="U$27" gate="3.3VA" pin="3.3VA"/>
 </segment>
 <segment>
 <pinref part="R4" gate="R" pin="2"/>
 <wire x1="568.96" y1="93.98" x2="568.96" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="3.3VA5" gate="G$1" pin="3.3V"/>
+<pinref part="U$28" gate="3.3VA" pin="3.3VA"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="OUT"/>
-<pinref part="3.3VA6" gate="G$1" pin="3.3V"/>
 <wire x1="48.26" y1="160.02" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U$20" gate="3.3VA" pin="3.3VA"/>
 </segment>
 </net>
 <net name="3.3VD" class="0">
@@ -11682,7 +11742,7 @@ push-push type</description>
 <segment>
 <pinref part="R5" gate="R" pin="2"/>
 <wire x1="749.3" y1="76.2" x2="749.3" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="3.3VD7" gate="G$1" pin="3.3V"/>
+<pinref part="U$22" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="96.52" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
@@ -11690,30 +11750,30 @@ push-push type</description>
 <wire x1="170.18" y1="104.14" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="HS_USB" gate="G$1" pin="VDD33"/>
 <pinref part="C1" gate="CE" pin="2"/>
-<pinref part="3.3VD4" gate="G$1" pin="3.3V"/>
 <junction x="170.18" y="106.68"/>
 <wire x1="170.18" y1="106.68" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$16" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <wire x1="414.02" y1="162.56" x2="396.24" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="FTDI/SERIAL" gate="G$1" pin="VCC"/>
-<pinref part="3.3VD9" gate="G$1" pin="3.3V"/>
 <wire x1="396.24" y1="162.56" x2="396.24" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="SWD" gate="G$1" pin="1"/>
 <wire x1="358.14" y1="160.02" x2="360.68" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="160.02" x2="360.68" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="3.3VD8" gate="G$1" pin="3.3V"/>
+<pinref part="U$10" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="VDD"/>
 <label x="132.08" y="139.7" size="1.778" layer="95"/>
 <wire x1="129.54" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="139.7" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="3.3VD3" gate="G$1" pin="3.3V"/>
 <pinref part="C20" gate="CE" pin="2"/>
 <junction x="154.94" y="139.7"/>
+<pinref part="U$14" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="R7" gate="R" pin="2"/>
@@ -11737,27 +11797,27 @@ push-push type</description>
 <segment>
 <wire x1="43.18" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="OUT"/>
-<pinref part="3.3VD10" gate="G$1" pin="3.3V"/>
 <wire x1="48.26" y1="137.16" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U$21" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VDD5"/>
 <wire x1="307.34" y1="139.7" x2="411.48" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="139.7" x2="411.48" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C32" gate="CE" pin="2"/>
-<pinref part="3.3VD11" gate="G$1" pin="3.3V"/>
 <wire x1="411.48" y1="139.7" x2="411.48" y2="142.24" width="0.1524" layer="91"/>
 <junction x="411.48" y="139.7"/>
+<pinref part="U$12" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VDD6"/>
 <wire x1="238.76" y1="152.4" x2="238.76" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="3.3VD12" gate="G$1" pin="3.3V"/>
 <pinref part="C33" gate="CE" pin="2"/>
 <wire x1="238.76" y1="167.64" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="165.1" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="167.64" x2="238.76" y2="167.64" width="0.1524" layer="91"/>
 <junction x="238.76" y="167.64"/>
+<pinref part="U$9" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VDD1"/>
@@ -11767,8 +11827,8 @@ push-push type</description>
 <wire x1="193.04" y1="129.54" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="129.54" x2="187.96" y2="127" width="0.1524" layer="91"/>
 <pinref part="C34" gate="CE" pin="2"/>
-<pinref part="3.3VD13" gate="G$1" pin="3.3V"/>
 <junction x="193.04" y="129.54"/>
+<pinref part="U$15" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VDD4"/>
@@ -11776,21 +11836,20 @@ push-push type</description>
 <wire x1="299.72" y1="63.5" x2="314.96" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="63.5" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C36" gate="CE" pin="2"/>
+<pinref part="U$13" gate="3.3VD" pin="3.3VD"/>
 <junction x="314.96" y="63.5"/>
-<pinref part="3.3VD15" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VDD3"/>
 <wire x1="243.84" y1="66.04" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="30.48" x2="223.52" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="30.48" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="3.3VD16" gate="G$1" pin="3.3V"/>
 <wire x1="223.52" y1="43.18" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C38" gate="CE" pin="2"/>
+<pinref part="U$19" gate="3.3VD" pin="3.3VD"/>
 <junction x="223.52" y="43.18"/>
 </segment>
 <segment>
-<pinref part="3.3VD17" gate="G$1" pin="3.3V"/>
 <wire x1="198.12" y1="81.28" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VDD2"/>
 <wire x1="231.14" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
@@ -11799,9 +11858,9 @@ push-push type</description>
 <wire x1="208.28" y1="76.2" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <junction x="208.28" y="76.2"/>
+<pinref part="U$17" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
-<pinref part="3.3VD14" gate="G$1" pin="3.3V"/>
 <pinref part="U$3" gate="G$1" pin="VDDA"/>
 <wire x1="228.6" y1="83.82" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="83.82" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
@@ -11813,6 +11872,7 @@ push-push type</description>
 <wire x1="228.6" y1="88.9" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
 <junction x="228.6" y="83.82"/>
 <junction x="215.9" y="83.82"/>
+<pinref part="U$18" gate="3.3VD" pin="3.3VD"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12457,11 +12517,6 @@ push-push type</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="115,1,73.66,150.923,SWD,,,,,"/>
-<approved hash="115,1,190.5,107.421,Q1,,,,,"/>
-<approved hash="115,1,210.82,128.719,BAT1,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
