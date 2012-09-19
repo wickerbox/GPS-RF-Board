@@ -7588,12 +7588,6 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <pin name="ID" x="-7.62" y="-2.54" length="short"/>
 <pin name="GND" x="-7.62" y="-5.08" length="short"/>
 </symbol>
-<symbol name="3.3V">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="USB3318">
 <wire x1="-15.24" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
 <wire x1="15.24" y1="30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
@@ -7679,19 +7673,6 @@ Comes in a variety of packages.  Check out Hirose's ZX-x0 line: http://www.hiros
 <connect gate="G$1" pin="ID" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="3.3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10691,8 +10672,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C7" library="rcl_custom" deviceset="C-EU" device="0603-B" value="0.1uF"/>
 <part name="DIG_GND5" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C9" library="rcl_custom" deviceset="C-EU" device="0603-B" value="0.1uF"/>
-<part name="C10" library="rcl_custom" deviceset="C-EU" device="0603-B"/>
-<part name="C11" library="rcl_custom" deviceset="C-EU" device="0603-B"/>
+<part name="C10" library="rcl_custom" deviceset="C-EU" device="0603-B" value="10nF"/>
+<part name="C11" library="rcl_custom" deviceset="C-EU" device="0603-B" value="10nF"/>
 <part name="DIG_GND8" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND9" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C15" library="rcl_custom" deviceset="C-EU" device="0603-B" value="0.1uF"/>
@@ -10725,8 +10706,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="USB_MICRO" library="SparkFun" deviceset="USB_MICROB_PLUG" device="-PTH" value="USB_MICROB"/>
 <part name="DIG_GND25" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="R7" library="rcl_custom" deviceset="R-US_" device="0603-B" value="1.5k"/>
-<part name="3.3VD" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
-<part name="3.3VD2" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="DIG_GND10" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND26" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND27" library="supply" deviceset="GND_BAR" device="" value="GND"/>
@@ -10744,10 +10723,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U$6" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="C1" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
 <part name="DIG_GND17" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="3.3VD5" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="R1" library="rcl_custom" deviceset="R-US_" device="0603-B" value="1k"/>
 <part name="R8" library="rcl_custom" deviceset="R-US_" device="0603-B" value="1k"/>
-<part name="3.3VD6" library="SparkFun" deviceset="3.3V" device="" value="3.3VD"/>
 <part name="DIG_GND30" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C23" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
 <part name="DIG_GND34" library="supply" deviceset="GND_BAR" device="" value="GND"/>
@@ -10797,8 +10774,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="DIG_GND52" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C39" library="rcl_custom" deviceset="C-EU" device="0603-B" value="1uF"/>
 <part name="DIG_GND53" library="supply" deviceset="GND_BAR" device="" value="GND"/>
-<part name="Q2" library="crystal" deviceset="CRYSTAL" device="CTS406"/>
-<part name="DIG_GND7" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="C20" library="rcl_custom" deviceset="C-EU" device="0603-B" value="2.2uF"/>
 <part name="DIG_GND20" library="supply" deviceset="GND_BAR" device="" value="GND"/>
 <part name="DIG_GND21" library="supply" deviceset="GND_BAR" device="" value="GND"/>
@@ -10823,6 +10798,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U$27" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
 <part name="U$28" library="SparkFun-Aesthetics" deviceset="3.3VA" device=""/>
 <part name="DIG_GND22" library="supply" deviceset="GND_BAR" device="" value="GND"/>
+<part name="Q2" library="crystal" deviceset="CRYSTAL" device="CTS406"/>
+<part name="DIG_GND7" library="supply" deviceset="GND_BAR" device="" value="GND"/>
+<part name="U$29" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$30" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$31" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
+<part name="U$32" library="SparkFun-Aesthetics" deviceset="3.3VD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10844,7 +10825,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="DIG_GND5" gate="1" x="726.44" y="121.92"/>
 <instance part="C9" gate="CE" x="675.64" y="157.48" rot="MR0"/>
 <instance part="C10" gate="CE" x="701.04" y="160.02"/>
-<instance part="C11" gate="CE" x="706.12" y="137.16"/>
+<instance part="C11" gate="CE" x="718.82" y="172.72"/>
 <instance part="DIG_GND8" gate="1" x="701.04" y="152.4"/>
 <instance part="DIG_GND9" gate="1" x="675.64" y="149.86" rot="MR0"/>
 <instance part="C15" gate="CE" x="675.64" y="53.34"/>
@@ -10877,8 +10858,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="USB_MICRO" gate="G$1" x="10.16" y="71.12" rot="MR0"/>
 <instance part="DIG_GND25" gate="1" x="25.4" y="50.8" rot="MR0"/>
 <instance part="R7" gate="R" x="45.72" y="81.28" rot="MR90"/>
-<instance part="3.3VD" gate="G$1" x="45.72" y="99.06" rot="MR0"/>
-<instance part="3.3VD2" gate="G$1" x="675.64" y="162.56" rot="MR0"/>
 <instance part="DIG_GND10" gate="1" x="218.44" y="121.92"/>
 <instance part="DIG_GND26" gate="1" x="223.52" y="88.9"/>
 <instance part="DIG_GND27" gate="1" x="403.86" y="116.84"/>
@@ -10896,10 +10875,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="U$6" gate="G$1" x="109.22" y="104.14"/>
 <instance part="C1" gate="CE" x="170.18" y="99.06" rot="R180"/>
 <instance part="DIG_GND17" gate="1" x="170.18" y="93.98"/>
-<instance part="3.3VD5" gate="G$1" x="93.98" y="99.06"/>
 <instance part="R1" gate="R" x="76.2" y="88.9" rot="R90"/>
 <instance part="R8" gate="R" x="76.2" y="76.2" rot="R90"/>
-<instance part="3.3VD6" gate="G$1" x="76.2" y="99.06"/>
 <instance part="DIG_GND30" gate="1" x="76.2" y="68.58"/>
 <instance part="C23" gate="CE" x="63.5" y="73.66" rot="R180"/>
 <instance part="DIG_GND34" gate="1" x="63.5" y="68.58"/>
@@ -10949,8 +10926,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="DIG_GND52" gate="1" x="215.9" y="33.02"/>
 <instance part="C39" gate="CE" x="215.9" y="68.58" rot="R180"/>
 <instance part="DIG_GND53" gate="1" x="215.9" y="58.42"/>
-<instance part="Q2" gate="G$1" x="741.68" y="165.1"/>
-<instance part="DIG_GND7" gate="1" x="731.52" y="162.56"/>
 <instance part="C20" gate="CE" x="154.94" y="134.62" rot="R180"/>
 <instance part="DIG_GND20" gate="1" x="154.94" y="129.54"/>
 <instance part="DIG_GND21" gate="1" x="134.62" y="162.56"/>
@@ -10975,6 +10950,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="U$27" gate="3.3VA" x="678.18" y="63.5"/>
 <instance part="U$28" gate="3.3VA" x="568.96" y="96.52"/>
 <instance part="DIG_GND22" gate="1" x="721.36" y="81.28"/>
+<instance part="Q2" gate="G$1" x="718.82" y="160.02" rot="R270"/>
+<instance part="DIG_GND7" gate="1" x="718.82" y="149.86"/>
+<instance part="U$29" gate="3.3VD" x="45.72" y="99.06"/>
+<instance part="U$30" gate="3.3VD" x="76.2" y="99.06"/>
+<instance part="U$31" gate="3.3VD" x="93.98" y="99.06"/>
+<instance part="U$32" gate="3.3VD" x="675.64" y="162.56"/>
 </instances>
 <busses>
 <bus name="Q0,Q1,I0,I1,IDLE,ANTFLAG,PGM,LD,SHDN,SPI_MOSI,SPI_CLK,SPI_CS,CLKOUT">
@@ -11333,11 +11314,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="215.9" y1="60.96" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="739.14" y1="165.1" x2="731.52" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="1"/>
-<pinref part="DIG_GND7" gate="1" pin="BAR_GND"/>
-</segment>
-<segment>
 <pinref part="C20" gate="CE" pin="1"/>
 <pinref part="DIG_GND20" gate="1" pin="BAR_GND"/>
 </segment>
@@ -11351,6 +11327,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="711.2" y1="86.36" x2="721.36" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="721.36" y1="86.36" x2="721.36" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="DIG_GND22" gate="1" pin="BAR_GND"/>
+</segment>
+<segment>
+<pinref part="Q2" gate="G$1" pin="2"/>
+<wire x1="718.82" y1="157.48" x2="718.82" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="DIG_GND7" gate="1" pin="BAR_GND"/>
 </segment>
 </net>
 <net name="LD" class="0">
@@ -11420,7 +11401,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="N$44" class="0">
 <segment>
 <wire x1="701.04" y1="129.54" x2="701.04" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="701.04" y1="139.7" x2="706.12" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="701.04" y1="139.7" x2="711.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="711.2" y1="139.7" x2="711.2" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="711.2" y1="175.26" x2="718.82" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="XTAL"/>
 <pinref part="C11" gate="CE" pin="1"/>
 </segment>
@@ -11737,7 +11720,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="C17" gate="CE" pin="1"/>
 <pinref part="C9" gate="CE" pin="1"/>
 <pinref part="U1" gate="G$1" pin="VCCADC"/>
-<pinref part="3.3VD2" gate="G$1" pin="3.3V"/>
+<pinref part="U$32" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <pinref part="R5" gate="R" pin="2"/>
@@ -11777,13 +11760,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="R7" gate="R" pin="2"/>
-<pinref part="3.3VD" gate="G$1" pin="3.3V"/>
 <wire x1="45.72" y1="99.06" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$29" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="93.98" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R1" gate="R" pin="2"/>
-<pinref part="3.3VD6" gate="G$1" pin="3.3V"/>
+<pinref part="U$30" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="83.82" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
@@ -11791,8 +11774,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="121.92" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <junction x="93.98" y="86.36"/>
 <pinref part="C28" gate="CE" pin="2"/>
-<pinref part="3.3VD5" gate="G$1" pin="3.3V"/>
 <pinref part="HS_USB" gate="G$1" pin="VDDIO"/>
+<pinref part="U$31" gate="3.3VD" pin="3.3VD"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
@@ -11877,14 +11860,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="706.12" y1="132.08" x2="706.12" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="706.12" y1="129.54" x2="716.28" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="716.28" y1="129.54" x2="716.28" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="716.28" y1="142.24" x2="749.3" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="749.3" y1="142.24" x2="749.3" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="749.3" y1="165.1" x2="744.22" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="718.82" y1="167.64" x2="718.82" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C11" gate="CE" pin="2"/>
-<pinref part="Q2" gate="G$1" pin="2"/>
+<pinref part="Q2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
@@ -12517,6 +12495,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,254,152.4,U$3,BOOT0,,,,"/>
+<approved hash="202,1,241.3,152.4,U$3,PDR_ON,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
