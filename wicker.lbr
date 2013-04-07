@@ -230,40 +230,40 @@ http://pdfserv.maxim-ic.com/land_patterns/90-0023.PDF</description>
 </packages>
 <symbols>
 <symbol name="MAX2769">
-<wire x1="-22.86" y1="33.02" x2="-22.86" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="27.94" x2="-22.86" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-22.86" y1="-20.32" x2="22.86" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-20.32" x2="22.86" y2="33.02" width="0.254" layer="94"/>
-<wire x1="22.86" y1="33.02" x2="-22.86" y2="33.02" width="0.254" layer="94"/>
-<text x="-7.62" y="15.24" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="22.86" y1="-20.32" x2="22.86" y2="27.94" width="0.254" layer="94"/>
+<wire x1="22.86" y1="27.94" x2="-22.86" y2="27.94" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-7.62" y="0" size="2.54" layer="97">MAX2769</text>
-<pin name="ANTFLAG" x="25.4" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="ANTFLAG" x="25.4" y="-15.24" length="short" direction="out" rot="R180"/>
 <pin name="NC@2" x="-12.7" y="-22.86" length="short" direction="nc" rot="R90"/>
-<pin name="LNA1" x="-25.4" y="-2.54" length="short" direction="pas"/>
-<pin name="PGM" x="-25.4" y="22.86" length="short" direction="in"/>
-<pin name="LNA2" x="-25.4" y="-5.08" length="short" direction="pas"/>
-<pin name="!IDLE" x="-25.4" y="12.7" length="short" direction="in"/>
-<pin name="VCCIF" x="-7.62" y="35.56" length="short" direction="pwr" rot="R270"/>
+<pin name="LNA1" x="-25.4" y="-5.08" length="short" direction="pas"/>
+<pin name="PGM" x="-25.4" y="17.78" length="short" direction="in"/>
+<pin name="LNA2" x="-25.4" y="-7.62" length="short" direction="pas"/>
+<pin name="!IDLE" x="-25.4" y="7.62" length="short" direction="in"/>
+<pin name="VCCIF" x="-7.62" y="30.48" length="short" direction="pwr" rot="R270"/>
 <pin name="NC@1" x="-15.24" y="-22.86" length="short" direction="nc" rot="R90"/>
-<pin name="LNAOUT" x="25.4" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="ANTBIAS" x="25.4" y="0" length="short" direction="out" rot="R180"/>
-<pin name="VCCRF" x="-12.7" y="35.56" length="short" direction="pwr" rot="R270"/>
-<pin name="MIXIN" x="-25.4" y="17.78" length="short" direction="pas"/>
-<pin name="LD" x="25.4" y="15.24" length="short" direction="out" rot="R180"/>
-<pin name="!SHDN" x="-25.4" y="10.16" length="short" direction="in"/>
-<pin name="SDATA" x="25.4" y="-15.24" length="short" rot="R180"/>
-<pin name="SCLK" x="25.4" y="-12.7" length="short" direction="in" rot="R180"/>
-<pin name="!CS" x="25.4" y="-10.16" length="short" direction="in" rot="R180"/>
-<pin name="VCCVCO" x="-5.08" y="35.56" length="short" direction="pwr" rot="R270"/>
-<pin name="CPOUT" x="25.4" y="27.94" length="short" direction="pas" rot="R180"/>
-<pin name="VCCCP" x="-10.16" y="35.56" length="short" direction="pwr" rot="R270"/>
-<pin name="VCCD" x="7.62" y="35.56" length="short" direction="pwr" rot="R270"/>
-<pin name="XTAL" x="-25.4" y="5.08" length="short" direction="in"/>
-<pin name="CLKOUT" x="25.4" y="30.48" length="short" direction="out" rot="R180"/>
-<pin name="Q1" x="25.4" y="10.16" length="short" direction="out" rot="R180"/>
-<pin name="Q0" x="25.4" y="7.62" length="short" direction="out" rot="R180"/>
-<pin name="VCCADC" x="-2.54" y="35.56" length="short" direction="pwr" rot="R270"/>
-<pin name="I0" x="25.4" y="22.86" length="short" direction="out" rot="R180"/>
+<pin name="LNAOUT" x="25.4" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="ANTBIAS" x="25.4" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="VCCRF" x="-12.7" y="30.48" length="short" direction="pwr" rot="R270"/>
+<pin name="MIXIN" x="-25.4" y="-12.7" length="short" direction="pas"/>
+<pin name="LD" x="25.4" y="25.4" length="short" direction="out" rot="R180"/>
+<pin name="!SHDN" x="-25.4" y="5.08" length="short" direction="in"/>
+<pin name="SDATA" x="25.4" y="0" length="short" rot="R180"/>
+<pin name="SCLK" x="25.4" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="!CS" x="25.4" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="VCCVCO" x="-5.08" y="30.48" length="short" direction="pwr" rot="R270"/>
+<pin name="CPOUT" x="25.4" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VCCCP" x="-10.16" y="30.48" length="short" direction="pwr" rot="R270"/>
+<pin name="VCCD" x="-2.54" y="30.48" length="short" direction="pwr" rot="R270"/>
+<pin name="XTAL" x="-25.4" y="0" length="short" direction="in"/>
+<pin name="CLKOUT" x="25.4" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="Q1" x="25.4" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="Q0" x="25.4" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="VCCADC" x="7.62" y="30.48" length="short" direction="pwr" rot="R270"/>
+<pin name="I0" x="25.4" y="20.32" length="short" direction="out" rot="R180"/>
 <pin name="I1" x="25.4" y="17.78" length="short" direction="out" rot="R180"/>
 <pin name="BODY" x="2.54" y="-22.86" length="short" direction="pwr" rot="R90"/>
 </symbol>
