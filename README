@@ -1,12 +1,14 @@
 Universal GPS RF Front-end Board
 
-A small RF front-end board that provides signals in serial and USB for soft GPS receiver development. 
+An RF front-end board that breaks out I and Q signals to serial, USB, and Ethernet for GPS receiver development. 
 
-Several GPS receiver boards exist on the market to receive the GPS satellite constellation’s signal and process it to provide location data. These GPS receivers only allow access to the final location data, however, and don’t allow access to the rich data that exists in the raw GPS signals. Getting access to these signals means you have to purchase a “RF front end” for hundreds of dollars, at which point you can work on projects like building an FPGA receiver board or developing a software radio receiver. 
+Several GPS receiver boards exist on the market to receive GPS satellite signals and process it to provide location data but these GPS receivers only give the final location. Getting access to the raw data before they go into correlators means you have to purchase a “RF front end” for hundreds of dollars, at which point you can work on projects like building an FPGA receiver board or developing a software radio receiver. 
 
 Both of these projects are in-progress projects at Portland State, and are stalled on purchasing the very expensive RF front end. This project proposes to design, build, and release an open-source GPS receiver RF front-end board that would offer the GPS raw data over USB and serial outputs. Open source GPS receiver boards do exist, including in Andrew Greenberg’s GPL-GPS Master’s thesis, but all are based on very out dated and out-of-production GPS chipsets and are not easily acquired. 
 
-Cost is also a factor: commercial RF front end boards are hundreds to thousands of dollars. And while the proposed chip for this project, the MAX2769 Universal GPS Receiver, costs only $5 each, the development kit is $600 -- in other words, cost prohibitive for a small project and frustrating for embedded software developers who may not have the time or experience to design and build their own hardware.
+Cost is also a factor: commercial RF front end boards are hundreds to thousands of dollars. And while the proposed chip for this project, the MAX2769 Universal GPS Receiver, costs only $5, the development kit is $600 -- in other words, cost prohibitive for a small project and frustrating for embedded software developers who may not have the time or experience to design and build their own hardware.
+
+Current status: April 2013 hardware revision (v2)
 
 Author: Jenner Hanni <wicker>
 School: Portland State University
