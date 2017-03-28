@@ -1,4 +1,4 @@
-#GPS RF Board v2
+# GPS RF Board v2
 
 Portland State University's Maseeh College of Engineering and Computer Science runs an innovation program that awards small thousand-dollar grants to students working on interesting projects. In 2011 there were a handful of GPS-related projects that needed a way to work directly with the raw I/Q data coming from the GPS satellites before any processing or correlating had been done. 
 
