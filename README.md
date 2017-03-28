@@ -1,3 +1,5 @@
+#GPS RF Board v2
+
 Portland State University's Maseeh College of Engineering and Computer Science runs an innovation program that awards small thousand-dollar grants to students working on interesting projects. In 2011 there were a handful of GPS-related projects that needed a way to work directly with the raw I/Q data coming from the GPS satellites before any processing or correlating had been done. 
 
 Commercial off-the-shelf GPS receivers are cheap and ubiquitous but they don't expose that data. One of my mentors, Andrew Greenberg, developed an open source GPS receiver for his Masters thesis in 2005 and suggested I take a look at doing the same thing with current hardware. I said I would if he would help, so together we built a board, built a revision, and are in the process of figuring out what modifications will be needed for a third.
